@@ -11,8 +11,8 @@
     
    stage('Email Notification'){
       mail bcc: '', body: '''Hi, This is a Jenkins Email Notification
-      Thanks
-      Hari''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job Notification', to: 'sureshchand.rhce@gmail.com'
+    Thanks
+    Suresh Chandra''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job Notification', to: 'sureshchand.rhce@gmail.com'
    }
 
 }
