@@ -10,9 +10,12 @@
    }
     
    stage('Email Notification'){
-      mail bcc: '', body: '''Hi, This is a Jenkins Email Notification
-    Thanks
-    Suresh Chandra''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job Notification', to: 'sureshchand.rhce@gmail.com'
+    mail bcc: '', body: '''Hi,
+    The Build Pipeline for "jenkins-demo2-pipeline-my-app" Job has been triggered Successfully. 
+
+  Thanks,
+  Jenkins Team''', cc: 'sureshchandra.rhca@gmail.com', from: '', replyTo: '', subject: 'Jenkins Email Notification', to: 'sureshchand.rhce@gmail.com'
+
    }
 
 }
